@@ -1,0 +1,98 @@
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  background-color: aqua ;
+  background-image: url("https://xvolld.github.io/Newmusic/images/bg.jpg");
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+}
+{
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#countdown {
+  font-size: 3em;
+  text-align: center;
+  margin: 2em 10;
+}
+/*
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 1em;
+} */
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+/*
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+} 
+
+li {
+  display: inline-block;
+} */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  border: 2px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 150px; /* افزایش عرض المان li */
+}
+
+.link1 {
+  border-color: red;
+  background-color: lightpink;
+}
+
+.link2 {
+  border-color: green;
+  background-color: lightgreen;
+}
+
+.link3 {
+  border-color: blue;
+  background-color: lightblue;
+}
+
+@media only screen and (max-width: 768px) {
+  ul {
+    flex-wrap: wrap;
+  }
+
+  li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
