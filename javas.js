@@ -1,5 +1,5 @@
 // Set the date of the new music release
-var releaseDate = new Date("August 20, 2023 00:00:00").getTime();
+var releaseDate = new Date("April 1, 2024 00:00:00").getTime();
 
 // Update the countdown every second
 var countdown = setInterval(function() {
